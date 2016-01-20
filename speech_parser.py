@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import rospy
+from manager.msg import GeneralPurposeCmd
 import pygst
 import urllib2
 import os
@@ -14,6 +15,7 @@ class SpeechParser():
     """ Sets up the gstreamer pipeline and registers callbacks.
         Partial and full callbacks must take arguments (name, uttid, text)
     """
+    #rospy.Subscriber("chatter", String, callback)
     
     self.name = name
     self.partial_cb = partial_cb
@@ -69,23 +71,28 @@ class SpeechParser():
     else :
       flagRecActive = False
       print "\n\naction comprise, reco desactivee !\n\n"
-      r = requests.post("http://192.168.200.111:8080/textAnalyzer/text", data=text)
+      '''r = requests.post("http://192.168.200.111:8080/textAnalyzer/text", data=text)
       print(r.status_code, r.reason)
       if r.status_code != 200:
         print("erreur de comprehension")
-      else :
-      	print("ta mere ca marche !")
-     
+      else :'''
+      print("ta mere ca marche !")
+      generalPurposeCmd = GeneralPurposeCmd()
+      generalPurposeCmd.Person = "ta mere"
+      generalPurposeCmd.Instruction = "baise"
+      generalPurposeCmd.Location = "dans la cuisine"
+      generalPurposeCmd.Type = "type"
+      pub = rospy.Publisher('publication', GeneralPurposeCmd, queue_size=10)
+      pub.publish(generalPurposeCmd)
+       
     self.final_cb(self.name, uttid, text)
 
-def callback(data):
-  rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
+#def callback(data):
+#  rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
 
 if __name__ == "__main__":
   import threading
   import gobject 
-  
-  rospy.Subscriber("chatter", String, callback)
   
   gobject.threads_init()
   
@@ -96,6 +103,7 @@ if __name__ == "__main__":
 
   src = gst.element_factory_make("autoaudiosrc") # Grab a random source
   parser = SpeechParser("parser", src, print_cb, print_cb)
+
 
   # This loops the program until Ctrl+C is pressed
   g_loop = threading.Thread(target=gobject.MainLoop().run)
