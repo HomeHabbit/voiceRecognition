@@ -14,8 +14,8 @@ from speech_parser import SpeechParser
 # Put the absolute path to the *.dic and *.lm language model files
 # here to supply a custom language model with higher translation accuracy.
 # http://cmusphinx.sourceforge.net/wiki/tutoriallm
-LM_PATH = "/home/tp/catkin_ws/src/vrec/src/DICO4/1515.lm" # *.lm goes here
-DICT_PATH = "/home/tp/catkin_ws/src/vrec/src/DICO4/1515.dic"  # *.dic goes here
+LM_PATH = "/home/tp/catkin_ws/src/vrec/src/DICO5/9917.lm" # *.lm goes here
+DICT_PATH = "/home/tp/catkin_ws/src/vrec/src/DICO5/9917.dic"  # *.dic goes here
 
 def partial_cb(name, uttid, text):
   """ This is called whenever Sphinx is in the middle of 

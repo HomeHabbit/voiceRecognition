@@ -78,14 +78,11 @@ class SpeechParser():
       else :'''
       print("ta mere ca marche !")
       generalPurposeCmd = GeneralPurposeCmd()
-      generalPurposeCmd.Person = "ta mere"
-      generalPurposeCmd.Instruction = "baise"
-      generalPurposeCmd.Location = "dans la cuisine"
+      generalPurposeCmd.Person = "Samy"
+      generalPurposeCmd.Instruction = "LIGHT ON"
+      generalPurposeCmd.Location = "KITCHEN"
       generalPurposeCmd.Type = "type"
       pub = rospy.Publisher('publication', GeneralPurposeCmd, queue_size=10)
-      info = r.text
-      info = "hello wooooorld"
-      rospy.loginfo(info)
       pub.publish(generalPurposeCmd)
        
     self.final_cb(self.name, uttid, text)
