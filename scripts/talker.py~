@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+## Simple talker demo that published std_msgs/Strings messages
+## to the 'chatter' topic
+
+import rospy
+from std_msgs.msg import String
+from manager.msg import GeneralPurposeCmd
+
+def talker():
+    pub = rospy.Publisher('publication', GeneralPurposeCmd, queue_size=10)
+    rospy.init_node('talker', anonymous=True)
+    rate = rospy.Rate(10) # 10hz
+    while not rospy.is_shutdown():
+        print("ta mere ca marche !")
+        generalPurposeCmd = GeneralPurposeCmd()
+        generalPurposeCmd.Person = "test1"
+        generalPurposeCmd.Instruction = "test"
+        generalPurposeCmd.Location = "dans la cuisine"
+        generalPurposeCmd.Type = "type"
+        pub.publish(generalPurposeCmd)
+        print("cest bon !")
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        talker()
+    except rospy.ROSInterruptException:
+        pass

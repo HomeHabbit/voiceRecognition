@@ -1,0 +1,252 @@
+Language model created by QuickLM on Wed Jan 20 16:45:24 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 60 sentences and 53 words
+
+\data\
+ngram 1=53
+ngram 2=109
+ngram 3=67
+
+\1-grams:
+-0.7993 </s> -0.3010
+-0.7993 <s> -0.2135
+-2.5775 ALL -0.2260
+-2.5775 AND -0.2260
+-2.5775 BATHROOM -0.2260
+-2.5775 BEDROOM -0.2260
+-2.2765 CAN -0.2260
+-2.5775 CHACON -0.2260
+-2.5775 CHANNEL -0.2260
+-2.5775 COULD -0.2260
+-2.5775 DID -0.2260
+-2.5775 DO -0.2260
+-2.5775 DOWN -0.2260
+-2.5775 HELLO -0.2260
+-2.5775 I -0.2260
+-2.5775 IN -0.2260
+-2.5775 IT -0.2260
+-2.5775 JARVIS -0.2260
+-2.5775 JIMMY -0.2260
+-2.5775 KITCHEN -0.2260
+-2.5775 LAMP -0.2260
+-2.5775 LED -0.2260
+-2.1004 LIGHT -0.2107
+-2.5775 LIKE -0.2260
+-2.5775 LIVINGROOM -0.2260
+-2.5775 MOFRERE -0.2260
+-2.5775 NO -0.2260
+-1.8785 OFF -0.2260
+-2.5775 OKEY -0.2987
+-1.7993 ON -0.2260
+-2.5775 ONLY -0.2260
+-2.5775 PLEASE -0.2260
+-2.5775 PLUG -0.2260
+-2.1004 POWER -0.2107
+-2.5775 PROJECTOR -0.2260
+-2.2765 ROS -0.2260
+-2.5775 SCREEN -0.2260
+-2.5775 SET -0.2260
+-2.5775 SWICTH -0.2941
+-2.2765 SWITCH -0.2191
+-2.5775 TELEVISION -0.2260
+-2.5775 THAT -0.2260
+-2.5775 THE -0.2260
+-2.5775 TO -0.2260
+-2.1004 TURN -0.2107
+-2.5775 TV -0.2260
+-2.5775 UP -0.2260
+-2.5775 VOLUME -0.2260
+-2.5775 WANT -0.2260
+-2.5775 WE -0.2260
+-2.5775 WOULD -0.2260
+-2.5775 YES -0.2260
+-2.5775 YOU -0.2260
+
+\2-grams:
+-2.0792 <s> ALL 0.0000
+-2.0792 <s> AND 0.0000
+-2.0792 <s> BATHROOM 0.0000
+-2.0792 <s> BEDROOM 0.0000
+-1.7782 <s> CAN 0.0000
+-2.0792 <s> CHACON 0.0000
+-2.0792 <s> CHANNEL 0.0000
+-2.0792 <s> COULD 0.0000
+-2.0792 <s> DID 0.0000
+-2.0792 <s> DO 0.0000
+-2.0792 <s> DOWN 0.0000
+-2.0792 <s> HELLO 0.0000
+-2.0792 <s> I 0.0000
+-2.0792 <s> IN 0.0000
+-2.0792 <s> IT 0.0000
+-2.0792 <s> JARVIS 0.0000
+-2.0792 <s> JIMMY 0.0000
+-2.0792 <s> KITCHEN 0.0000
+-2.0792 <s> LAMP 0.0000
+-2.0792 <s> LED 0.0000
+-1.6021 <s> LIGHT 0.0000
+-2.0792 <s> LIKE 0.0000
+-2.0792 <s> LIVINGROOM 0.0000
+-2.0792 <s> MOFRERE 0.0000
+-2.0792 <s> NO 0.0000
+-2.0792 <s> OFF 0.0000
+-2.0792 <s> OKEY 0.0000
+-1.7782 <s> ON 0.0000
+-2.0792 <s> ONLY 0.0000
+-2.0792 <s> PLEASE 0.0000
+-2.0792 <s> PLUG 0.0000
+-1.6021 <s> POWER 0.0000
+-2.0792 <s> PROJECTOR 0.0000
+-2.0792 <s> ROS 0.0000
+-2.0792 <s> SCREEN 0.0000
+-2.0792 <s> SET 0.0000
+-2.0792 <s> SWICTH 0.0000
+-1.7782 <s> SWITCH 0.0000
+-2.0792 <s> TELEVISION 0.0000
+-2.0792 <s> THAT 0.0000
+-2.0792 <s> THE 0.0000
+-2.0792 <s> TO 0.0000
+-1.6021 <s> TURN 0.0000
+-2.0792 <s> TV 0.0000
+-2.0792 <s> UP 0.0000
+-2.0792 <s> VOLUME 0.0000
+-2.0792 <s> WANT 0.0000
+-2.0792 <s> WE 0.0000
+-2.0792 <s> WOULD 0.0000
+-2.0792 <s> YES 0.0000
+-2.0792 <s> YOU 0.0000
+-0.3010 ALL </s> -0.3010
+-0.3010 AND </s> -0.3010
+-0.3010 BATHROOM </s> -0.3010
+-0.3010 BEDROOM </s> -0.3010
+-0.3010 CAN </s> -0.3010
+-0.3010 CHACON </s> -0.3010
+-0.3010 CHANNEL </s> -0.3010
+-0.3010 COULD </s> -0.3010
+-0.3010 DID </s> -0.3010
+-0.3010 DO </s> -0.3010
+-0.3010 DOWN </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 I </s> -0.3010
+-0.3010 IN </s> -0.3010
+-0.3010 IT </s> -0.3010
+-0.3010 JARVIS </s> -0.3010
+-0.3010 JIMMY </s> -0.3010
+-0.3010 KITCHEN </s> -0.3010
+-0.3010 LAMP </s> -0.3010
+-0.3010 LED </s> -0.3010
+-0.7782 LIGHT </s> -0.3010
+-0.7782 LIGHT OFF 0.0000
+-0.7782 LIGHT ON 0.0000
+-0.3010 LIKE </s> -0.3010
+-0.3010 LIVINGROOM </s> -0.3010
+-0.3010 MOFRERE </s> -0.3010
+-0.3010 NO </s> -0.3010
+-0.3010 OFF </s> -0.3010
+-0.3010 OKEY ROS 0.0000
+-0.3010 ON </s> -0.3010
+-0.3010 ONLY </s> -0.3010
+-0.3010 PLEASE </s> -0.3010
+-0.3010 PLUG </s> -0.3010
+-0.7782 POWER </s> -0.3010
+-0.7782 POWER OFF 0.0000
+-0.7782 POWER ON 0.0000
+-0.3010 PROJECTOR </s> -0.3010
+-0.3010 ROS </s> -0.3010
+-0.3010 SCREEN </s> -0.3010
+-0.3010 SET </s> -0.3010
+-0.3010 SWICTH ON 0.0000
+-0.6021 SWITCH </s> -0.3010
+-0.6021 SWITCH OFF 0.0000
+-0.3010 TELEVISION </s> -0.3010
+-0.3010 THAT </s> -0.3010
+-0.3010 THE </s> -0.3010
+-0.3010 TO </s> -0.3010
+-0.7782 TURN </s> -0.3010
+-0.7782 TURN OFF 0.0000
+-0.7782 TURN ON 0.0000
+-0.3010 TV </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 VOLUME </s> -0.3010
+-0.3010 WANT </s> -0.3010
+-0.3010 WE </s> -0.3010
+-0.3010 WOULD </s> -0.3010
+-0.3010 YES </s> -0.3010
+-0.3010 YOU </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALL </s>
+-0.3010 <s> AND </s>
+-0.3010 <s> BATHROOM </s>
+-0.3010 <s> BEDROOM </s>
+-0.3010 <s> CAN </s>
+-0.3010 <s> CHACON </s>
+-0.3010 <s> CHANNEL </s>
+-0.3010 <s> COULD </s>
+-0.3010 <s> DID </s>
+-0.3010 <s> DO </s>
+-0.3010 <s> DOWN </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> I </s>
+-0.3010 <s> IN </s>
+-0.3010 <s> IT </s>
+-0.3010 <s> JARVIS </s>
+-0.3010 <s> JIMMY </s>
+-0.3010 <s> KITCHEN </s>
+-0.3010 <s> LAMP </s>
+-0.3010 <s> LED </s>
+-0.7782 <s> LIGHT </s>
+-0.7782 <s> LIGHT OFF
+-0.7782 <s> LIGHT ON
+-0.3010 <s> LIKE </s>
+-0.3010 <s> LIVINGROOM </s>
+-0.3010 <s> MOFRERE </s>
+-0.3010 <s> NO </s>
+-0.3010 <s> OFF </s>
+-0.3010 <s> OKEY ROS
+-0.3010 <s> ON </s>
+-0.3010 <s> ONLY </s>
+-0.3010 <s> PLEASE </s>
+-0.3010 <s> PLUG </s>
+-0.7782 <s> POWER </s>
+-0.7782 <s> POWER OFF
+-0.7782 <s> POWER ON
+-0.3010 <s> PROJECTOR </s>
+-0.3010 <s> ROS </s>
+-0.3010 <s> SCREEN </s>
+-0.3010 <s> SET </s>
+-0.3010 <s> SWICTH ON
+-0.6021 <s> SWITCH </s>
+-0.6021 <s> SWITCH OFF
+-0.3010 <s> TELEVISION </s>
+-0.3010 <s> THAT </s>
+-0.3010 <s> THE </s>
+-0.3010 <s> TO </s>
+-0.7782 <s> TURN </s>
+-0.7782 <s> TURN OFF
+-0.7782 <s> TURN ON
+-0.3010 <s> TV </s>
+-0.3010 <s> UP </s>
+-0.3010 <s> VOLUME </s>
+-0.3010 <s> WANT </s>
+-0.3010 <s> WE </s>
+-0.3010 <s> WOULD </s>
+-0.3010 <s> YES </s>
+-0.3010 <s> YOU </s>
+-0.3010 LIGHT OFF </s>
+-0.3010 LIGHT ON </s>
+-0.3010 OKEY ROS </s>
+-0.3010 POWER OFF </s>
+-0.3010 POWER ON </s>
+-0.3010 SWICTH ON </s>
+-0.3010 SWITCH OFF </s>
+-0.3010 TURN OFF </s>
+-0.3010 TURN ON </s>
+
+\end\

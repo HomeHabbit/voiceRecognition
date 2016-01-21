@@ -1,0 +1,4 @@
+chmod a+x line_follower.py
+
+lien pour generer le dico :
+http://cmusphinx.sourceforge.net/wiki/tutoriallm#building_a_simple_language_model_using_web_service

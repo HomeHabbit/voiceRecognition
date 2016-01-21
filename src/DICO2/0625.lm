@@ -1,0 +1,92 @@
+Language model created by QuickLM on Thu Jan  7 10:30:05 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 17 sentences and 17 words
+
+\data\
+ngram 1=17
+ngram 2=32
+ngram 3=20
+
+\1-grams:
+-0.8030 </s> -0.3010
+-0.8030 <s> -0.2121
+-2.0334 ALLUME -0.2266
+-2.0334 BITCH -0.2266
+-2.0334 BONJOUR -0.2266
+-2.0334 ETEINT -0.2266
+-2.0334 HELLO -0.2266
+-2.0334 JARVIS -0.2266
+-2.0334 JIMMY -0.2266
+-2.0334 LAMPE -0.2266
+-1.5563 LIGHT -0.2071
+-2.0334 MOFRERE -0.2266
+-1.7324 OFF -0.2266
+-2.0334 OKEY -0.2929
+-1.7324 ON -0.2266
+-1.7324 ROS -0.2266
+-2.0334 SIMON -0.2266
+
+\2-grams:
+-1.5315 <s> ALLUME 0.0000
+-1.5315 <s> BITCH 0.0000
+-1.5315 <s> BONJOUR 0.0000
+-1.5315 <s> ETEINT 0.0000
+-1.5315 <s> HELLO 0.0000
+-1.5315 <s> JARVIS 0.0000
+-1.5315 <s> JIMMY 0.0000
+-1.5315 <s> LAMPE 0.0000
+-1.0544 <s> LIGHT 0.0000
+-1.5315 <s> MOFRERE 0.0000
+-1.5315 <s> OFF 0.0000
+-1.5315 <s> OKEY 0.0000
+-1.5315 <s> ON 0.0000
+-1.5315 <s> ROS 0.0000
+-1.5315 <s> SIMON 0.0000
+-0.3010 ALLUME </s> -0.3010
+-0.3010 BITCH </s> -0.3010
+-0.3010 BONJOUR </s> -0.3010
+-0.3010 ETEINT </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 JARVIS </s> -0.3010
+-0.3010 JIMMY </s> -0.3010
+-0.3010 LAMPE </s> -0.3010
+-0.7782 LIGHT </s> -0.3010
+-0.7782 LIGHT OFF 0.0000
+-0.7782 LIGHT ON 0.0000
+-0.3010 MOFRERE </s> -0.3010
+-0.3010 OFF </s> -0.3010
+-0.3010 OKEY ROS 0.0000
+-0.3010 ON </s> -0.3010
+-0.3010 ROS </s> -0.3010
+-0.3010 SIMON </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALLUME </s>
+-0.3010 <s> BITCH </s>
+-0.3010 <s> BONJOUR </s>
+-0.3010 <s> ETEINT </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> JARVIS </s>
+-0.3010 <s> JIMMY </s>
+-0.3010 <s> LAMPE </s>
+-0.7782 <s> LIGHT </s>
+-0.7782 <s> LIGHT OFF
+-0.7782 <s> LIGHT ON
+-0.3010 <s> MOFRERE </s>
+-0.3010 <s> OFF </s>
+-0.3010 <s> OKEY ROS
+-0.3010 <s> ON </s>
+-0.3010 <s> ROS </s>
+-0.3010 <s> SIMON </s>
+-0.3010 LIGHT OFF </s>
+-0.3010 LIGHT ON </s>
+-0.3010 OKEY ROS </s>
+
+\end\
